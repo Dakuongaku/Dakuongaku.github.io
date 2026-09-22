@@ -3,22 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dāku Ongaku — Composer &amp; Game Developer</title>
-<meta name="description" content="Portfolio of original music compositions and game development work.">
+<title>Dāku — Composer &amp; Game Dev</title>
+<meta name="description" content="Portfolio of Dāku — chiptune, electronic, and game music composer.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="#top" class="nav-logo">DĀKU ONGAKU</a>
+    <a href="#top" class="nav-logo">DĀKU</a>
     <div class="nav-links">
       <a href="#music">Music</a>
       <a href="#games">Games</a>
       <a href="#about">About</a>
+      <a href="#socials">Socials</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -26,12 +28,17 @@
 
 <header id="top" class="hero">
   <div class="hero-inner">
-    <p class="hero-kicker">Composer &amp; Game Developer</p>
-    <h1>Music and worlds,<br>built from scratch.</h1>
-    <p class="hero-sub">I write original scores and build the games they live in. Have a look around.</p>
-    <div class="hero-links">
-      <a href="#music" class="btn btn-primary">Hear the music</a>
-      <a href="#games" class="btn btn-secondary">See the games</a>
+    <div class="hero-text">
+      <h1>Dāku</h1>
+      <p class="hero-kicker">Composer | Game Dev | Sound Designer</p>
+      <p class="hero-sub">Chiptune, Electronic, and Game Composer.</p>
+      <div class="hero-links">
+        <a href="#music" class="btn btn-primary">Hear the music</a>
+        <a href="#games" class="btn btn-secondary">See the games</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/hero-daku.png" alt="Dāku character art">
     </div>
   </div>
 </header>
@@ -45,8 +52,9 @@
 
       <div class="music-grid" id="music-grid">
         <div class="music-card">
+          <img class="music-cover" src="https://f4.bcbits.com/img/a3707375782_5.jpg" alt="Frostbitten cover art" loading="lazy">
           <div class="embed-wrap">
-            <iframe title="Frostbitten by Dāku Ongaku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=3020568992/size=large/bgcol=121218/linkcol=ff5d3b/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
+            <iframe title="Frostbitten by Dāku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=3020568992/size=large/bgcol=121218/linkcol=a1e1ff/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
           </div>
           <div class="card-body">
             <h3>Frostbitten</h3>
@@ -55,8 +63,9 @@
         </div>
 
         <div class="music-card">
+          <img class="music-cover" src="https://f4.bcbits.com/img/a0901838536_5.jpg" alt="Cosmic Curtains cover art" loading="lazy">
           <div class="embed-wrap">
-            <iframe title="Cosmic Curtains by Dāku Ongaku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=2711401181/size=large/bgcol=121218/linkcol=ff5d3b/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
+            <iframe title="Cosmic Curtains by Dāku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=2711401181/size=large/bgcol=121218/linkcol=a1e1ff/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
           </div>
           <div class="card-body">
             <h3>Cosmic Curtains</h3>
@@ -65,8 +74,9 @@
         </div>
 
         <div class="music-card">
+          <img class="music-cover" src="https://f4.bcbits.com/img/a3831419282_5.jpg" alt="Collector's Lament cover art" loading="lazy">
           <div class="embed-wrap">
-            <iframe title="Collector's Lament by Dāku Ongaku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=1745933447/size=large/bgcol=121218/linkcol=ff5d3b/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
+            <iframe title="Collector's Lament by Dāku" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=1745933447/size=large/bgcol=121218/linkcol=a1e1ff/tracklist=false/artwork=small/transparent=true/" seamless loading="lazy"></iframe>
           </div>
           <div class="card-body">
             <h3>Collector's Lament</h3>
@@ -80,17 +90,21 @@
   <section id="games" class="section section-alt">
     <div class="section-inner">
       <h2 class="section-title">Games</h2>
-      <p class="section-lede">Projects I've designed, built, or scored.</p>
+      <p class="section-lede">Games I've scored, and a few I've helped lead. Nothing of my own has released yet.</p>
 
-      <div class="games-grid" id="games-grid">
+      <h3 class="subsection-title">Games</h3>
+      <div class="games-grid">
+
         <div class="game-card">
           <a class="game-thumb" href="https://drawtoit.itch.io/dorado" target="_blank" rel="noopener">
             <img src="https://img.itch.zone/aW1nLzMwMDY1NDk5LmdpZg==/original/%2Fsk6Ke.gif" alt="Dorado cover art" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Dorado</h3>
+            <h4>Dorado</h4>
             <p>A turn-based strategy RPG about reaching the legendary city of El Dorado. Composed the full soundtrack &amp; sound effects.</p>
-            <a class="play-link" href="https://drawtoit.itch.io/dorado" target="_blank" rel="noopener">Play on itch.io →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="Teotl Man Boss — Dorado OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=2519711986/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://dakuongaku.bandcamp.com/album/dorado" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
@@ -100,9 +114,11 @@
             <img src="https://img.itch.zone/aW1nLzI2OTgzNjAxLnBuZw==/original/orjC5K.png" alt="Bloodflow cover art" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Bloodflow</h3>
+            <h4>Bloodflow</h4>
             <p>A high-speed action shooter blending parkour and pattern-based combat, fighting demons to stop an apocalypse. Wrote the story &amp; music.</p>
-            <a class="play-link" href="https://dakuongaku.itch.io/bloodflow" target="_blank" rel="noopener">Play on itch.io →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="Woods — Bloodflow OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=4109945711/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://dakuongaku.bandcamp.com/album/bloodflow-ost" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
@@ -112,9 +128,11 @@
             <img src="https://img.itch.zone/aW1nLzI3ODY1NTA1LnBuZw==/original/PWh34F.png" alt="The Sun Awakens cover art" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>The Sun Awakens</h3>
+            <h4>The Sun Awakens</h4>
             <p>A sci-fi action RPG piloting a spacecraft across a dying solar system to destroy the Sun's Heart. Composed the music.</p>
-            <a class="play-link" href="https://kustaa.itch.io/the-sun-awakens" target="_blank" rel="noopener">Play on itch.io →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="Verita — The Sun Awakens OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=2502676718/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://dakuongaku.bandcamp.com/album/the-sun-awakens-ost" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
@@ -124,9 +142,11 @@
             <img src="https://img.itch.zone/aW1nLzIzMjc1MzY3LnBuZw==/original/4FnvFe.png" alt="Super Boulder Roll cover art" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Super Boulder Roll</h3>
+            <h4>Super Boulder Roll</h4>
             <p>Smash everything on the way down a mountain as a giant boulder across five levels. Composed the music.</p>
-            <a class="play-link" href="https://anatomia-gier.itch.io/super-boulder-roll" target="_blank" rel="noopener">Play on itch.io →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="Tatra Twist (Level 2) — Super Boulder Roll OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=1389617016/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://dakuongaku.bandcamp.com/album/super-boulder-roll" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
@@ -136,30 +156,31 @@
             <img src="https://img.itch.zone/aW1nLzMwMTMyNjE0LmdpZg==/original/0YbyfL.gif" alt="Cheese of Power cover art" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Cheese of Power</h3>
+            <h4>Cheese of Power</h4>
             <p>A GBJAM 14 platformer starring a cosmonaut mouse with a cheese ray, playable in-browser. Composed the audio &amp; music.</p>
-            <a class="play-link" href="https://rufflesworth.itch.io/cheese-of-power" target="_blank" rel="noopener">Play on itch.io →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="Planet — Cheese of Power OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=1411872030/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://dakuongaku.bandcamp.com/album/cheese-of-power" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
 
+      </div>
+
+      <h3 class="subsection-title">Fan Games</h3>
+      <div class="games-grid">
+
         <div class="game-card">
           <a class="game-thumb" href="https://megamanmaker.com/team" target="_blank" rel="noopener">
-            <img src="https://img.youtube.com/vi/SjFXfIDbvKk/maxresdefault.jpg" alt="Mega Man Maker" loading="lazy">
+            <img src="https://img.youtube.com/vi/lpirMDFhC8w/maxresdefault.jpg" alt="Mega Man Maker" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Mega Man Maker</h3>
+            <h4>Mega Man Maker</h4>
             <p>A fan-made level creator and game letting players design and share their own Mega Man stages. Musician &amp; composer for the project.</p>
-            <a class="play-link" href="https://megamanmaker.com/team" target="_blank" rel="noopener">View the team →</a>
-            <div class="track-list">
-              <span class="track-list-label">Selected tracks:</span>
-              <a href="https://youtu.be/SjFXfIDbvKk" target="_blank" rel="noopener">Track 1 ↗</a>
-              <a href="https://youtu.be/NVs5pY_Bm_k" target="_blank" rel="noopener">Track 2 ↗</a>
-              <a href="https://youtu.be/kFdDrq-Qh6U" target="_blank" rel="noopener">Track 3 ↗</a>
-              <a href="https://youtu.be/lpirMDFhC8w" target="_blank" rel="noopener">Track 4 ↗</a>
-              <a href="https://youtu.be/A_XDeZyQbSQ" target="_blank" rel="noopener">Track 5 ↗</a>
-              <a href="https://youtu.be/_PQcz_e2LaE" target="_blank" rel="noopener">Track 6 ↗</a>
+            <div class="embed-wrap embed-wrap-video">
+              <iframe src="https://www.youtube.com/embed/lpirMDFhC8w" title="Mega Man Maker track" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <a class="ost-link" href="https://megamanmaker.com/team" target="_blank" rel="noopener">View the team →</a>
           </div>
         </div>
 
@@ -168,15 +189,12 @@
             <img src="https://www.magmmlcontest.com/images/screenshots/MaGMML3/MaGMML3_Title114.png" alt="Make a Good Mega Man Level 3" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Make a Good Mega Man Level 3</h3>
+            <h4>Make a Good Mega Man Level 3</h4>
             <p>A massive fan-made Mega Man level contest game featuring hundreds of community-built stages. Contributed music.</p>
-            <a class="play-link" href="https://www.magmmlcontest.com/magmml3.php" target="_blank" rel="noopener">Learn more →</a>
-            <div class="track-list">
-              <span class="track-list-label">Selected tracks:</span>
-              <a href="https://youtu.be/adCPImIuQLg" target="_blank" rel="noopener">Track 1 ↗</a>
-              <a href="https://youtu.be/6-0qtGzarTc" target="_blank" rel="noopener">Track 2 ↗</a>
-              <a href="https://youtu.be/XAf-7RIjEHY" target="_blank" rel="noopener">Track 3 ↗</a>
+            <div class="embed-wrap embed-wrap-video">
+              <iframe src="https://www.youtube.com/embed/adCPImIuQLg" title="MaGMML3 track" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            <a class="ost-link" href="https://www.magmmlcontest.com/magmml3.php" target="_blank" rel="noopener">Learn more →</a>
           </div>
         </div>
 
@@ -185,9 +203,11 @@
             <img src="https://f4.bcbits.com/img/a3904943405_5.jpg" alt="Dragon Man Reignited" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Dragon Man Reignited</h3>
+            <h4>Dragon Man Reignited</h4>
             <p>A Mega Man fangame demo. Contributed music as part of the DMR Music Team.</p>
-            <a class="play-link" href="https://gamejolt.com/games/dragon-man-reignited/711195" target="_blank" rel="noopener">View on Game Jolt →</a>
+            <div class="embed-wrap embed-wrap-audio">
+              <iframe title="BSOD (Vapor Woman's Stage) — Dragon Man Reignited OST" src="https://bandcamp.com/EmbeddedPlayer/v=2/track=3619763650/size=small/bgcol=121218/linkcol=a1e1ff/transparent=true/" seamless loading="lazy"></iframe>
+            </div>
             <a class="ost-link" href="https://firespike33.bandcamp.com/album/dragon-man-reignited-demo-ost" target="_blank" rel="noopener">Listen to the OST →</a>
           </div>
         </div>
@@ -197,10 +217,73 @@
             <img src="https://sonicfangameshq.com/forums/showcase/mega-man-four-hounds.1817/cover-image" alt="Mega Man Four Hounds" loading="lazy">
           </a>
           <div class="card-body">
-            <h3>Mega Man Four Hounds</h3>
+            <h4>Mega Man Four Hounds</h4>
             <p>A Mega Man fangame with multiple playable characters and eight Robot Master bosses. Contributed to the soundtrack.</p>
-            <a class="play-link" href="https://sonicfangameshq.com/forums/showcase/mega-man-four-hounds.1817/" target="_blank" rel="noopener">View the showcase →</a>
+            <div class="embed-wrap embed-wrap-video">
+              <iframe src="https://www.youtube.com/embed/XZEnVPxsOVk" title="Mega Man Four Hounds track" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <a class="ost-link" href="https://www.youtube.com/playlist?list=PLyaai9XbTvIsx1p5vo6CPNqgNKUmj3TuI" target="_blank" rel="noopener">Listen to the OST →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <h3 class="subsection-title">Misc Projects</h3>
+      <div class="misc-grid">
+        <div class="misc-item">
+          <h4>COMPOSE MAN 3</h4>
+          <a href="https://youtu.be/-r3lbTGKPB4?t=9708" target="_blank" rel="noopener">Watch →</a>
+        </div>
+        <div class="misc-item">
+          <h4>V-Tuber Themes (Power Guy)</h4>
+          <a href="https://www.youtube.com/watch?v=c_njqLvOZzQ" target="_blank" rel="noopener">Watch →</a>
+        </div>
+        <div class="misc-item">
+          <h4>Dāku's 8-Bit Originals</h4>
+          <a href="https://dakuongaku.bandcamp.com/album/d-kus-8-bit-originals" target="_blank" rel="noopener">Listen →</a>
+        </div>
+
+        <div class="misc-group">
+          <span class="misc-group-label">Collaborations</span>
+          <div class="misc-item">
+            <h4>Annual Melody Man Collab</h4>
+            <a href="https://dakuongaku.bandcamp.com/track/cannon-ball-8-bit-remix" target="_blank" rel="noopener">Listen →</a>
+          </div>
+          <div class="misc-item">
+            <h4>Rushjet1 Collab</h4>
+            <a href="https://youtu.be/XCRs69Huj_k" target="_blank" rel="noopener">Watch →</a>
+          </div>
+        </div>
+
+        <div class="misc-group">
+          <span class="misc-group-label">Remixes</span>
+          <div class="misc-item">
+            <h4>Flower Man [MMC5, N163-1]</h4>
+            <a href="https://dakuongaku.bandcamp.com/track/flower-man-mmc5-n163-1" target="_blank" rel="noopener">Listen →</a>
+          </div>
+          <div class="misc-item">
+            <h4>DUO [MMC5]</h4>
+            <a href="https://dakuongaku.bandcamp.com/track/duo-mmc5" target="_blank" rel="noopener">Listen →</a>
+          </div>
+          <div class="misc-item">
+            <h4>Twisted Garden (8-Bit Cover)</h4>
+            <a href="https://dakuongaku.bandcamp.com/track/twisted-garden-8-bit-cover" target="_blank" rel="noopener">Listen →</a>
+          </div>
+          <div class="misc-item">
+            <h4>Descent to Gemini</h4>
+            <a href="https://dakuongaku.bandcamp.com/track/descent-to-gemini" target="_blank" rel="noopener">Listen →</a>
+          </div>
+        </div>
+
+        <div class="misc-group">
+          <span class="misc-group-label">Remix Albums</span>
+          <div class="misc-item">
+            <h4>Rockmix</h4>
+            <a href="https://dakuongaku.bandcamp.com/album/rockmix" target="_blank" rel="noopener">Listen →</a>
+          </div>
+          <div class="misc-item">
+            <h4>Wily's Mixtape</h4>
+            <a href="https://dakuongaku.bandcamp.com/album/wilys-mixtape" target="_blank" rel="noopener">Listen →</a>
           </div>
         </div>
       </div>
@@ -219,20 +302,30 @@
         I bring the same energy, precision, and passion from those collaborations into every new
         project, and I'd love to help make your dream project a reality!
       </p>
+      <p class="art-credit">Character art by KarakatoDzo &amp; Rapphire.</p>
     </div>
   </section>
 
-  <section id="contact" class="section section-alt">
+  <section id="socials" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Socials</h2>
+      <div class="contact-links">
+        <a href="https://www.youtube.com/@D%C4%81kuOngaku" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://soundcloud.com/dakuongaku" target="_blank" rel="noopener">SoundCloud</a>
+        <a href="https://dakuongaku.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a>
+        <a href="https://dakuongaku.itch.io/" target="_blank" rel="noopener">itch.io</a>
+        <a href="https://github.com/Dakuongaku" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
     <div class="section-inner contact-inner">
       <h2 class="section-title">Contact</h2>
       <p class="section-lede">Open to collaborations, commissions, and opportunities.</p>
       <div class="contact-links">
-        <a href="mailto:ignorantfalse+daku@gmail.com">Email</a>
+        <a href="https://dakuongaku.bandcamp.com/contact?b=1940713209&n=D%C4%81ku&email=darkatomsg%40gmail.com" target="_blank" rel="noopener">Email</a>
         <a href="https://discord.gg/3uJBKT9SyA" target="_blank" rel="noopener">Discord</a>
-        <a href="https://www.youtube.com/@D%C4%81kuOngaku" target="_blank" rel="noopener">YouTube</a>
-        <a href="https://soundcloud.com/dakuongaku" target="_blank" rel="noopener">SoundCloud</a>
-        <a href="https://dakuongaku.bandcamp.com/" target="_blank" rel="noopener">Bandcamp</a>
-        <a href="https://github.com/Dakuongaku" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </section>
@@ -240,7 +333,7 @@
 </main>
 
 <footer class="site-footer">
-  <p>&copy; <span id="year"></span> Dāku Ongaku. Built with GitHub Pages.</p>
+  <p>&copy; <span id="year"></span> Dāku. Built with GitHub Pages.</p>
 </footer>
 
 <script src="script.js"></script>
