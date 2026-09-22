@@ -42,14 +42,14 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0;
   height: 100%;
-  z-index: -2;
+  z-index: 2;
   overflow: hidden;
   pointer-events: none;
 }
 
 .concept-sketch {
   position: absolute;
-  opacity: 0.16;
+  opacity: 0.24;
   filter: grayscale(1) invert(1) contrast(0.85);
   -webkit-mask-image: radial-gradient(closest-side, black 35%, transparent 100%);
   mask-image: radial-gradient(closest-side, black 35%, transparent 100%);
@@ -121,10 +121,10 @@ img { max-width: 100%; display: block; }
 
 /* Hero */
 .hero {
-  min-height: 88vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 40px 24px;
+  padding: 0 24px;
   background:
     radial-gradient(ellipse at top left, rgba(56, 114, 0, 0.28), transparent 55%),
     radial-gradient(ellipse at bottom right, rgba(161, 225, 255, 0.10), transparent 55%);
@@ -134,6 +134,7 @@ img { max-width: 100%; display: block; }
   max-width: 1100px;
   margin: 0 auto;
   width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -181,11 +182,19 @@ img { max-width: 100%; display: block; }
   flex: 1 1 480px;
   min-width: 280px;
   max-width: 620px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
 }
 
 .hero-art img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
   filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.5));
 }
 
@@ -300,6 +309,11 @@ img { max-width: 100%; display: block; }
   margin-top: 14px;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.embed-wrap-large {
+  aspect-ratio: unset;
+  height: 120px;
 }
 
 .card-body {
@@ -506,6 +520,15 @@ img { max-width: 100%; display: block; }
   min-width: 260px;
 }
 
+.signature {
+  margin-top: 32px;
+  width: 160px;
+  height: auto;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
 .icon-links {
   margin-top: 36px;
   display: flex;
@@ -554,6 +577,9 @@ img { max-width: 100%; display: block; }
 @media (max-width: 640px) {
   .nav-links { gap: 16px; font-size: 0.82rem; }
   .section { padding: 72px 20px; }
-  .hero-inner { flex-direction: column-reverse; text-align: center; }
+  .hero { min-height: auto; padding: 48px 20px; }
+  .hero-inner { flex-direction: column-reverse; text-align: center; height: auto; }
   .hero-links { justify-content: center; }
+  .hero-art { height: auto; padding: 0; max-width: 320px; margin: 0 auto; }
+  .hero-art img { height: auto; width: 100%; }
 }
