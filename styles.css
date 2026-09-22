@@ -49,8 +49,8 @@ img { max-width: 100%; display: block; }
 
 .concept-sketch {
   position: absolute;
-  opacity: 0.07;
-  filter: grayscale(1) contrast(0.9) brightness(1.4);
+  opacity: 0.16;
+  filter: grayscale(1) invert(1) contrast(0.85);
   -webkit-mask-image: radial-gradient(closest-side, black 35%, transparent 100%);
   mask-image: radial-gradient(closest-side, black 35%, transparent 100%);
   max-width: 320px;
@@ -178,9 +178,9 @@ img { max-width: 100%; display: block; }
 }
 
 .hero-art {
-  flex: 0 1 340px;
-  min-width: 220px;
-  max-width: 380px;
+  flex: 1 1 480px;
+  min-width: 280px;
+  max-width: 620px;
 }
 
 .hero-art img {
@@ -216,7 +216,7 @@ img { max-width: 100%; display: block; }
 }
 
 .section-alt {
-  background: var(--bg-alt);
+  background: rgba(17, 26, 15, 0.94);
 }
 
 .section-inner {
@@ -396,6 +396,14 @@ img { max-width: 100%; display: block; }
   padding: 18px;
 }
 
+.misc-cover {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
 .misc-item h4 {
   font-family: var(--font-display);
   font-size: 0.78rem;
@@ -457,6 +465,17 @@ img { max-width: 100%; display: block; }
 
 .about-text + .about-text {
   margin-top: 18px;
+}
+
+.about-highlight {
+  margin-top: 18px;
+  color: #6d7568;
+  font-size: 0.9rem;
+  max-width: 65ch;
+}
+
+.about-highlight a {
+  color: var(--accent);
 }
 
 .art-credit {
